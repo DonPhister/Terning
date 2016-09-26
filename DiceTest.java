@@ -21,13 +21,13 @@ public class DiceTest {
 		case 6: seks++; m++;
 		}
 		}
-		System.out.print("1'ere = " + et );
-		System.out.print(" , 2'ere = " + to);
-		System.out.print(" , 3'ere = " + tre);
-		System.out.print(" , 4'ere = " + fire);
-		System.out.print(" , 5'ere = " + fem);
-		System.out.println(" , 6'ere = " + seks);
-		System.out.print("Total: " + m);		
+		assertEquals(10000,et,400);
+		assertEquals(10000,to,400);
+		assertEquals(10000,tre,400);
+		assertEquals(10000,fire,400);
+		assertEquals(10000,fem,400);
+		assertEquals(10000,seks,400);
+		assertEquals(60000,m);		
 	}
 
 }
