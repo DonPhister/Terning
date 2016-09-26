@@ -9,27 +9,15 @@ public class DiceTest {
 	@Test
 	public void test() {
 		Dice terning = new Dice();
-		int et, to, tre, fire, fem, seks, i, m;
-		et=0;
-		to=0;
-		tre=0;
-		fire=0;
-		fem=0;
-		seks=0;
-		m=0;
+		int et=0, to=0, tre=0, fire=0, fem=0, seks=0, i, m=0;
 		while (m<60000){
 		i=terning.roll();
 		switch (i){
-		case 1: et++; m++;
-		break;
-		case 2:  to++; m++;
-		break;
-		case 3: tre++; m++;
-		break;
-		case 4: fire++; m++;
-		break;
-		case 5: fem++; m++;
-		break;
+		case 1: et++; m++; break;
+		case 2:  to++; m++; break;
+		case 3: tre++; m++; break;
+		case 4: fire++; m++; break;
+		case 5: fem++; m++; break;
 		case 6: seks++; m++;
 		}
 		}
